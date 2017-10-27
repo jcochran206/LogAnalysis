@@ -7,7 +7,17 @@ the questions are:
  3) On which days did more than 1% of requests lead to errors?
 
 # requirements
-install virtualbox and vagrant 
+virtualbox
+vagrant 
 upload newsdata.sql in vagrant virtual machine
 
-the classes are named based on the questions they are meant to answer.  
+#configuration 
+-install virtualbox and vagrant 
+-open vagrant folder in git
+-execute these cmds:
+  1) vagrant up
+  2) vagrant ssh
+-upload newsdata.spl 
+  1) psql -d news -f newsdata.sql
+#How to execute in python
+python3 LogTestTool.py ~ or yourfilename.py
