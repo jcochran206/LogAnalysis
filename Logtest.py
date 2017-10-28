@@ -57,6 +57,7 @@ def print_error():
         print(""'\t' + '"' + str(record[0]) + '"' + '---' + str(record[1]) + '%errors'"")
     conn.close()
 
+    
 if __name__ == '__main__':
     print_articles()
     print_authors()
