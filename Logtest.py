@@ -22,7 +22,9 @@ def print_articles():
     query1 = c.fetchall()
     print("popular articles:")
     for record in query1:
-        print('\t' + '"' + str(record[0]) + '"' + '---' + str(record[1]) + 'views')
+        print(
+            '\t' + '"' + str(record[0]) + '"' + '---' +
+            str(record[1]) + 'views')
     conn.close()
 
 
@@ -37,7 +39,9 @@ def print_authors():
     query2 = c.fetchall()
     print("popular authors:")
     for record in query2:
-        print('\t' + '"' + str(record[0]) + '"' + '---' + str(record[1]) + 'views')
+        print(
+            '\t' + '"' + str(record[0]) + '"' + '---' +
+            str(record[1]) + 'views')
     conn.close()
 
 
@@ -54,10 +58,12 @@ def print_error():
     query3 = c.fetchall()
     print("error log:")
     for record in query3:
-        print(""'\t' + '"' + str(record[0]) + '"' + '---' + str(record[1]) + '%errors'"")
+        print(
+            ""'\t' + '"' + str(record[0]) + '"' + '---' +
+            str(record[1]) + '%errors'"")
     conn.close()
 
-    
+
 if __name__ == '__main__':
     print_articles()
     print_authors()
