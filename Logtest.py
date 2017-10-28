@@ -1,3 +1,6 @@
+#!/usr/bin/env python Logtest.py
+# -*- coding: utf-8 -*-
+
 # Created by Jonathan Cochran
 # Description: Develop a console tool to print out log status
 # Connedtion string tester
