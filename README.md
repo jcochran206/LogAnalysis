@@ -8,8 +8,8 @@ the questions are:
 
 # requirements
 
-virtualbox
-vagrant 
+virtualbox - https://www.virtualbox.org/wiki/Download_Old_Builds_5_1
+vagrant - https://www.vagrantup.com/
 upload newsdata.sql in vagrant virtual machine
 
 # configuration 
