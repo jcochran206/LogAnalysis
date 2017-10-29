@@ -8,9 +8,9 @@ the questions are:
 
 # requirements
 
-virtualbox - https://www.virtualbox.org/wiki/Download_Old_Builds_5_1
-vagrant - https://www.vagrantup.com/
-upload newsdata.sql in vagrant virtual machine
+1) virtualbox - https://www.virtualbox.org/wiki/Download_Old_Builds_5_1
+2) vagrant - https://www.vagrantup.com/
+3) upload newsdata.sql in vagrant virtual machine
 
 # configuration 
 
